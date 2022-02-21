@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  box-sizing: border-box;
+  height: 69px;
+  padding: 10px;
+  border-bottom: 1px solid seashell;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.nav__link:hover {
+  color: gray;
+}
+
+.logo {
+  height: 50px;
+  margin: 0;
+}
