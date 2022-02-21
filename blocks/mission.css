@@ -1,0 +1,17 @@
+.mission {
+  background-image: url(../images/img-mission-background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+  height: 700px;
+}
+
+.mission__content {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 1200px;
+}
